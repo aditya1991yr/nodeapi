@@ -1,7 +1,7 @@
 var express = require('express');  
 var app=express();  
   
-app.get('/api', function (req, res) {  
+app.get('/api/get', function (req, res) {  
 res.send('Node API Service!!!!');  
 })  
   
